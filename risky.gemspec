@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.version       = Risky::VERSION
   gem.license       = "MIT"
 
-  gem.add_dependency "riak-client", "~> 2.0.0"
+  gem.add_dependency "riak-client", "~> 2.1.0"
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "excon"
 end
